@@ -28,7 +28,7 @@ Install NPM modules
 
 6. `npm install`
 
-## Run the Chat Server and Client
+## Run
 
 Open a new terminal and start the console:
 
