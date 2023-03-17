@@ -1,4 +1,4 @@
-# ChatExample
+# Estate Real-Time Chat Example
 Example real-time CLI-based chat application using the Estate real-time state manager. All messages are sent through a new service you create (named "Chat") hosted in the Estate cloud sandbox.
 
 ## Setup (1 minute)
