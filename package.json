@@ -10,8 +10,8 @@
   "bin": {
     "chat": "index.mjs"
   },
-  "author": "Warpdrive Technologies, Inc.",
-  "license": "Apache-2.0",
+  "author": "Stackless Web Services, Inc.",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.0",
     "inquirer": "^8.2.0"
