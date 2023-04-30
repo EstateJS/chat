@@ -2,7 +2,7 @@
   "name": "chat",
   "private": "true",
   "version": "1.0.0",
-  "description": "A chat application built on Estate.",
+  "description": "A IRC-like chat server and client built on the Estate platform.",
   "main": "index.mjs",
   "scripts": {
     "start": "node index.mjs"
@@ -14,6 +14,11 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.0",
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "estate-js": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "estate-tools": "latest"
   }
 }
