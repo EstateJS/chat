@@ -5,14 +5,16 @@
   ],
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
-    "allowJs": false,
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "allowJs": true,
     "declaration": false,
     "rootDir": "./src",
+    "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "skipLibCheck": true
+    "skipLibCheck": false
   }
 }

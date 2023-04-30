@@ -2,23 +2,24 @@
   "name": "chat",
   "private": "true",
   "version": "1.0.0",
-  "description": "A IRC-like chat server and client built on the Estate platform.",
-  "main": "index.mjs",
+  "description": "An IRC-like chat server and client built on the Estate platform.",
+  "source": "src/index.mts",
+  "main": "dist/index.mjs",
   "scripts": {
-    "start": "node index.mjs"
-  },
-  "bin": {
-    "chat": "index.mjs"
+    "build": "tsc",
+    "console": "node dist/index.mjs --console",
+    "chat":  "node dist/index.mjs"
   },
   "author": "Stackless Web Services, Inc.",
   "license": "MIT",
   "dependencies": {
+    "@types/inquirer": "^9.0.3",
     "chalk": "^5.0.0",
-    "inquirer": "^8.2.0",
-    "estate-js": "latest"
+    "estate-js": "latest",
+    "inquirer": "^8.2.0"
   },
   "devDependencies": {
-    "typescript": "^4.9.3",
-    "estate-tools": "latest"
+    "estate-tools": "latest",
+    "typescript": "^4.9.3"
   }
 }
